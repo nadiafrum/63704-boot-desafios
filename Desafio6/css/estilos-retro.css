@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Contrail+One&family=Vujahday+Script&display=swap');
+
+/* font-family: 'Bungee Shade', cursive;
+font-family: 'Contrail One', cursive;
+font-family: 'Vujahday Script', cursive; */
+
+
+/* Reseteos */
+
+:root{
+--verdeAgua: #C0FDFF;
+--violeta: #DEAAFF;
+--rosa: #FFCBF2;
+--fuccia: #f72585;
+--fuccia2: #ff69eb;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Paleta de colores
+
+#C0FDFF Verde agua
+#DEAAFF Violeta
+#FFCBF2 Rosa 
+#f72585 Fuccia
+#ff69eb Fuccia2
+
+*/
+
+/* Estilos */
+
+body{
+    width: 70%;
+    max-width: 1300px;
+    margin: 0px auto;
+    background-color: black;
+    background-image: url(../img/retrobackground3.jpg);
+    background-repeat:repeat ;
+    font-family: 'Contrail One', cursive;
+    color: var(--verdeAgua);
+}
+
+header{
+    background-color: black;
+    display: inline-block;
+    text-align: center;
+    margin:25px 40%;
+    border: solid var(--violeta);
+    border-radius: 50px;
+    box-shadow: 3px 3px 17px var(--violeta);
+    
+}
+
+h1{
+    font-family:'Bungee Shade', cursive;
+    color:var(--verdeAgua);
+    width:400px;
+    border-radius: 50px;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    margin: 10px 10px;
+    
+}
+
+fieldset{
+    background-color: black;
+    border: solid var(--fuccia);
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 3px 3px 17px var(--fuccia);
+}
+
+legend{
+    background-color: black;
+    font-size: xx-large;
+    font-family: 'Contrail One', cursive;
+    color: var(--fuccia);
+    border: solid;
+    border-color: var(--violeta);
+    border-radius: 15px;
+    box-shadow: 3px 3px 17px var(--violeta);
+}
+
+
+input[type="text"], 
+input[type="number"], 
+input[type="email"],
+select, textarea{
+    display: block;
+    width: 70%;
+    padding: 5px;
+    margin: 10px auto;
+    border-radius: 3px;
+    
+}
+
+textarea{
+    resize: vertical;
+    height: 100px;
+    font-family: 'Contrail One', cursive;
+}
+
+.divSexo{
+    margin: 5px 5px 5px 5px;
+ }
+
+ form fieldset .parrafoActividades{
+    margin-bottom: 15px;
+}
+
+form fieldset:last-child div{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+#basquet:checked,
+#boxeo:checked,
+#futbol:checked,
+#tenis:checked,
+#rugby:checked,
+#voley:checked,
+#condiciones:checked,
+#novedades:checked{
+    color: var(--rosa);
+    box-shadow:3px 3px 17px var(--fuccia);
+}
+
+form{
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+
+footer{
+    display: flex;
+    display: inline-block;
+    flex-direction: column;
+    margin-left: 25px;
+    background-color: black;
+}
+
+footer form{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+button{
+    color: var(--fuccia);
+    background-color: black;
+    border: solid var(--violeta);
+    border-radius: 5px;
+    font-family: 'Contrail One', cursive;
+    margin: 15px;
+    padding: 5px;
+    box-shadow: 3px 3px 17px var(--fuccia);
+}
+
+
+button:hover{
+    background-color: var(--verdeAgua);
+    color: var(--fuccia)
+}

@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+:root{
+    --colorFondo: #1F2023;
+    --verdeHeader: #4D6D63;
+    --verdeLegend: #2B3D37;
+    --verdeFieldsetMedio: #A6C1B9;
+    --verdeFieldsetClaro: #D6E2DE;
+    --blanco: white;
+}
+
+/* Reseteos */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Clases */
+
+
+.displayBlock{
+    display: block;
+}
+
+.flexCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Flexbox */
+
+   
+
+
+/* Estilos */
+
+body{
+    width: 70%;
+    max-width: 600px;
+    margin: 0px auto;
+    background-color: var(--colorFondo); 
+    font-family: 'Roboto', sans-serif; 
+    color: var(--blanco);
+}
+
+header{
+    border-top: 13px solid var(--verdeHeader);
+    border-bottom: 13px solid var(--verdeHeader);
+    border-right: 13px solid var(--colorFondo);
+    border-left: 13px solid var(--colorFondo);
+    margin: 30px 0;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+
+}
+
+fieldset{
+    background-color: var(--verdeFieldsetClaro);
+    color: var(--verdeLegend);
+    border-radius:3px;
+    margin-bottom: 15px;
+
+}
+
+legend{
+    background-color: var(--verdeHeader);
+    color: var(--blanco);
+    padding: 8px;
+    margin-left: 13px;
+    border-radius: 5px;
+}
+
+form fieldset div{
+    margin: 20px 0;
+}
+
+label{
+    text-align: center;
+    margin-bottom: 10px;
+   
+}
+
+input[type="text"], 
+input[type="number"], 
+input[type="email"],
+select, textarea{
+    display: block;
+    width: 70%;
+    padding: 5px;
+    margin: 0px auto;
+    color: var(--verdeHeader);
+    border-radius: 3px;
+    
+}
+
+input[type="text"], 
+input[type="number"], 
+input[type="email"]{
+    text-align: end;
+
+}
+
+input[type="text"]:focus, 
+input[type="number"]:focus, 
+input[type="email"]:focus,
+textarea:focus{
+    background-color: var(--verdeHeader);
+    color: var(--verdeFieldsetClaro);
+}
+
+fieldset:focus-within{
+    background-color: var(--verdeFieldsetMedio);
+}
+
+fieldset:focus-within legend{
+    background-color: var(--verdeLegend);
+}
+
+textarea{
+    resize: vertical;
+    height: 100px;
+}
+
+
+form fieldset:first-child div:last-child div {
+    text-align: center;
+   
+}
+
+
+.divSexo label{
+   margin: 0 5px 0 3px;
+}
+
+
+.fieldsetContacto input::placeholder{
+    color: var(--verdeFieldsetMedio)
+}
+
+
+form fieldset:last-of-type{
+    padding: 25px 20px 0;
+    margin-bottom: 30px;
+}
+
+form fieldset .parrafoActividades{
+    margin-bottom: 15px;
+}
+
+form>div{
+    margin-bottom: 15px;
+}
+
+.divButton{
+   margin-top: 30px; 
+   
+}
+
+button{
+    color: var(--verdeFieldsetMedio);
+    background-color: var(--verdeLegend);
+    padding: 10px;
+    margin: 0 15px;
+    border-radius: 5px;
+
+}
+
+button:hover{
+    background-color: var(--verdeFieldsetMedio);
+    color: var(--verdeLegend)
+}
+
+.divSpan{
+    margin: 10px auto;
+    overflow: hidden;
+    width: 36%;
+    height: 20px;
+   
+}
+
+span{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: var(--verdeFieldsetMedio);
+    margin: 0px 5px;
+}

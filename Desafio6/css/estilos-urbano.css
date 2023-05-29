@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Frijole&family=Rubik+Vinyl&display=swap');
+
+/* 
+font-family: 'Bebas Neue', sans-serif;
+font-family: 'Frijole', cursive;
+font-family: 'Rubik Vinyl', cursive; 
+*/
+
+
+/* Reseteos */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+
+ :root{
+
+    --grisOscuro: #333533;
+    --amarillo: #ffd100;
+    --amarilloClaro: #ffee32;
+    --naranja: #f2542d;
+    --beige: #d6d6d6;
+    --grisClaro: #ced4da;
+ }
+
+
+/* 
+Paleta de colores:
+
+#333533 Gris Oscuro 
+#ffd100 Amarillo 
+#ffee32 Amarillo Claro 
+#f2542d Naranja 
+#d6d6d6 Beige 
+#ced4da Gris Claro
+*/
+
+
+
+ /* Clases */
+
+ 
+ body{
+    width: 70%;
+    max-width: 1300px;
+    margin: 0px auto;
+    background-image: url(../img/urbanobackground2.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    
+}
+
+header{
+    
+    display: inline-block;
+    text-align: center;
+    margin:25px 40%;
+    font-family:'Rubik Vinyl', cursive;
+    font-weight: bolder;
+    color: var(--naranja);
+    font-size: xx-large;
+    
+}
+
+h1{
+    color: var(--naranja);
+    font-family:'Rubik Vinyl', cursive; 
+}
+
+fieldset{
+    text-align: center;
+    font-family:'Bebas Neue', sans-serif;
+    color: var(--grisClaro);
+    text-shadow: 1px 1px var(--grisOscuro);
+    font-size: 20px;
+    height: auto;
+    background-color: #333533D9;
+    border: solid 5px var(--amarilloClaro);
+    border-radius: 4px;
+    margin: 20px;
+    padding: 10px;
+    
+}
+
+legend{
+    font-size: 25px;
+    text-align: center;
+    border: solid var(--amarilloClaro);
+    border-radius: 4px;
+    background-image: linear-gradient(to right, #333533, #ffd100);
+}
+
+label{
+    margin: 10px;
+    padding: 20px;
+}
+
+
+textarea{
+    resize: vertical;
+    height: 100px;
+}
+
+input[type="text"], 
+input[type="number"], 
+input[type="email"],
+select, textarea{
+    display: block;
+    width: 60%;
+    padding: 5px;
+    margin: 10px auto;
+    border-radius: 3px;
+}
+
+div .divSexo1{
+    margin-bottom: 10px;
+ }
+
+ footer form{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+
+footer{
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 30%;
+    height: auto;
+    font-family:'Bebas Neue', sans-serif;
+    color: var(--grisClaro);
+    text-shadow: 1px 1px var(--grisOscuro);
+    font-weight: bold;
+    text-align: center;
+    background-color: #333533D9;
+    border: solid 5px var(--amarilloClaro);
+    border-radius: 4px;
+}
+
+form fieldset:last-child div{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+button{
+    size: 20px 5px;
+    color: var(--grisClaro);
+    background-image: linear-gradient(to right, #333533, #ffd100);
+    border: solid var(--amarilloClaro);
+    border-radius: 4px;
+    font-family:'Bebas Neue', sans-serif;
+    font-size: 15px;
+    margin: 15px;
+    padding: 5px;
+}
