@@ -1,0 +1,21 @@
+:root{
+background-color: #289688;
+
+}
+main{
+    text-align: center;
+}
+
+.titulo{
+
+    color: #FCEA3E;
+    font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;
+    font-size: xx-large;
+}
+.imagenes{
+    border:10px;
+    border-color: #FFFFFF;
+    border-style: solid;
+    margin: 5px;
+    
+}

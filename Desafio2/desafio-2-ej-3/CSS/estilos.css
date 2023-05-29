@@ -1,0 +1,26 @@
+header{
+    text-align: center;
+}
+.titulo{
+    color: #BB5C9F;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    letter-spacing: 15px;
+}
+.subtitulos{
+    color:#BB5C9F ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 10px;
+}
+.parrafos{
+    color: #4E73AF;
+}
+.imagenpopcentury{
+    float: right;
+}
+.imagen-caribbean-beach{
+    float: left;
+}
+.imagen-animal-kingdom{
+    float: right;
+}
